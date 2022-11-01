@@ -8,7 +8,7 @@ CORS(app)
 #Definiendo rutas
 @app.route("/")
 def hello_word():
-    return "Hello, Word!"
+    return "PAGINA PARA SERVICIO SOCIAL LUIS GUILLERMO CRUZ!"
 
 @app.route("/predict")
 def predict():
