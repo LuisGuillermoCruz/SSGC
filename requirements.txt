@@ -1,3 +1,9 @@
 Flask
 flask-cors
 gunicorn
+torch
+io
+ntpath
+shutil
+random
+werkzeug
