@@ -1,6 +1,6 @@
 Flask
 flask-cors
-gunicorn==20.0.4
+gunicorn==22.3
 shutil
 werkzeug
 --find-links https://download.pytorch.org/whl/torch_stable.html
