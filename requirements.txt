@@ -2,8 +2,7 @@ Flask
 flask-cors
 gunicorn
 torch
-io
+torchvision
 ntpath
 shutil
-random
 werkzeug
