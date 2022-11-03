@@ -1,4 +1,4 @@
---find-links https://download.pytorch.org/whl/cu113/torch_stable.html
+'/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip'
 Flask
 flask-cors
 gunicorn
