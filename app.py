@@ -1,3 +1,5 @@
+#pip install --upgrade pip; pip install -r requirements.txt; pip install gunicorn; pip install Flask; pip install flask; pip install flask-cors; pip install shutil; pip install werkzeug; pip install ntpath; pip install torch==1.3.1+cpu;
+#  
 from flask import Flask, render_template
 import flask
 from flask_cors import CORS
@@ -63,7 +65,7 @@ def predict():
     model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
     # Images
     img = f'{basepath}/static/{nuevoNombreFile}'
-    name = ntpath.basename(img)
+    
 
     # Inference
     results = model(img)
