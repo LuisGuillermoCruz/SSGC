@@ -1,4 +1,4 @@
---upgrade pip
+pip-upgrade
 Flask
 flask-cors
 gunicorn>=19.1.0
