@@ -1,7 +1,7 @@
-upgrade pip
+--upgrade pip
 Flask
 flask-cors
-gunicorn==22.3.0
+gunicorn>=19.1.0
 shutil
 werkzeug
 --find-links https://download.pytorch.org/whl/torch_stable.html
