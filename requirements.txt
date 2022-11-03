@@ -1,4 +1,4 @@
-python -m pip install --upgrade pip
+upgrade pip
 Flask
 flask-cors
 gunicorn==22.3.0
