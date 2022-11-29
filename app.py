@@ -1,5 +1,8 @@
-#pip install --upgrade pip; pip install -r requirements.txt; pip install gunicorn; pip install Flask; pip install flask; pip install flask-cors; pip install shutil; pip install werkzeug; pip install ntpath; pip install torch==1.3.1+cpu;
-#  
+##pip install --upgrade pip; pip install gunicorn; pip install Flask; pip install flask; 
+# pip install flask-cors; pip install shutil; pip install werkzeug;
+# sudo apt-get install python3-opencv; pip install pandas; pip install IPython
+#pip install torchvision; pip install tqdm; pip install matplotlib; pip install seaborn 
+# pip install psutil
 from flask import Flask, render_template
 import flask
 from flask_cors import CORS
